@@ -1,4 +1,4 @@
-# ETL_with_Python_and_ChatGPT
+# ETL com Python e ChatGPT
 
 Código simples de iniciação ao Python para ciência de dados.
 Criação de ETL com Python para extrair dados de uma planilha em Excel, realizar uma leve transformação em alguns dados para obter a nota final do aluno e criar um e-mail marketing para o mesmo, para dois casos: 
