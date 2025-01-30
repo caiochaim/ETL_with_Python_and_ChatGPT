@@ -33,7 +33,7 @@ aprovados['SITUACAO'] = 'APROVADO'
 # -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- #
 
 def generate_msg (nome_usuario, endereco, curso, nota_final, situacao, e_mail):
-  msg_chat = f"crie uma msg de até 100 caracteres, para uma pessoa chamada {nome_usuario}, informando que ele obteve a melhor nota do curso de {curso}, se classificando em 1º lugar na faculdade com a nota {nota_final}. Sendo assim, ganhará uma viagem para a Escócia de 5 dias com tudo pago, e as passagens serão enviadas no e-mail {e_mail} e também para o endereço dele, que é na {endereco}."
+  msg_chat = f"crie uma msg de até 100 caracteres, para uma pessoa chamada {nome_usuario}, informando que ele obteve uma das melhores notas do curso de {curso}, e obtendo uma boa classificação na faculdade com a nota {nota_final}. Sendo assim, caso a nota dele for maior que 8.5, ganhará uma viagem para a Escócia de 5 dias com tudo pago, e as passagens serão enviadas no e-mail {e_mail} e também para o endereço dele, que é na {endereco}, caso não for maior que 8.5, somente parabenizará o aluno."
   
   try:
     response = gpt.chat.completions.create(
